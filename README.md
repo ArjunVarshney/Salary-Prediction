@@ -9,11 +9,14 @@ This is a salary prediction model which takes in the equity percentage, post, de
 
 - Install the necessary packages using `pip install ....`
 - Run the `app.py` file using `python app.py`
+- The app will start running at `localhost:5000`
 - Hit the endpoints for the desire output (the details of the endpoints are given below)
 
 ## End points for api:
 
 ### **/predict** (Post):
+
+> "complete url": http://127.0.0.1:5000/predict
 
 This endpoint return the prediction of the model based on the give input.
 
@@ -52,6 +55,8 @@ sample response :-
 ```
 
 ## **/constants** (Get):
+
+> "complete url": http://127.0.0.1:5000/constants
 
 This end point return the constants that the model will work for otherwise it won't work.
 

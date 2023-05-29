@@ -134,76 +134,6 @@ jobrole_to_department = {
     "CEO (Chief Executive Officer)": "Business Development",
 }
 
-departments_to_jobroles = {
-    "Finance and Accounting": [
-        "Accountant",
-        "Financial Controller",
-        "Auditor",
-        "Tax Specialist",
-        "Treasury Analyst",
-        "Financial Analyst",
-        "CFO (Chief Financial Officer)",
-    ],
-    "Sales and Marketing": [
-        "Marketing Manager",
-        "Account Manager",
-        "Digital Marketer",
-        "Brand Manager",
-        "Public Relations Specialist",
-        "Sales Representative",
-        "CMO (Chief Marketing Officer)",
-    ],
-    "Legal and Compliance": [
-        "Corporate Counsel",
-        "Regulatory Affairs Specialist",
-        "Compliance Officer",
-        "Legal Assistant",
-    ],
-    "Research and Development (R&D)": [
-        "Product Development Manager",
-        "Research Scientist",
-        "Market Research Analyst",
-        "Research Analyst",
-        "Innovation Manager",
-    ],
-    "Human Resources (HR)": [
-        "Employee Relations Specialist",
-        "Training and Development Manager",
-        "Recruitment Specialist",
-        "Compensation and Benefits Specialist",
-        "HR Generalist",
-        "HR Manager",
-    ],
-    "Operations": [
-        "Production Supervisor",
-        "Supply Chain Manager",
-        "Warehouse Manager",
-        "Logistics Coordinator",
-        "Team Lead",
-        "Operations Manager",
-    ],
-    "Customer Support": [
-        "Call Center Supervisor",
-        "Customer Support Specialist",
-        "Customer Service Representative",
-    ],
-    "Information Technology (IT)": [
-        "Database Administrator",
-        "IT Manager",
-        "Systems Analyst",
-        "Software Engineer",
-        "IT Support Specialist",
-        "Web Developer",
-        "Cybersecurity Analyst",
-        "Network Administrator",
-        "Help Desk Analyst",
-        "CTO (Chief Technology Officer)",
-    ],
-    "Quality Assurance (QA)": ["Quality Control Analyst"],
-    "Project Management": ["Scrum Master", "Project Manager", "Project Coordinator"],
-    "Business Development": ["CEO (Chief Executive Officer)"],
-}
-
 skills_to_department = {
     "Research and Development (R&D)": {
         "Technical Skills": [
@@ -658,3 +588,77 @@ all_skills = [
     "Proposal and Pitch Development",
     "Data Analytics and Reporting",
 ]
+
+departments_to_jobroles = {
+    "Finance and Accounting": [
+        "Accountant",
+        "Financial Controller",
+        "Auditor",
+        "Tax Specialist",
+        "Treasury Analyst",
+        "Financial Analyst",
+        "CFO (Chief Financial Officer)",
+    ],
+    "Sales and Marketing": [
+        "Marketing Manager",
+        "Account Manager",
+        "Digital Marketer",
+        "Brand Manager",
+        "Public Relations Specialist",
+        "Market Research Analyst",
+        "Sales Representative",
+        "CMO (Chief Marketing Officer)",
+    ],
+    "Legal and Compliance": [
+        "Corporate Counsel",
+        "Regulatory Affairs Specialist",
+        "Compliance Officer",
+        "Legal Assistant",
+    ],
+    "Research and Development (R&D)": [
+        "Product Development Manager",
+        "Research Scientist",
+        "Research Analyst",
+        "Innovation Manager",
+    ],
+    "Human Resources (HR)": [
+        "Employee Relations Specialist",
+        "Training and Development Manager",
+        "Recruitment Specialist",
+        "Compensation and Benefits Specialist",
+        "HR Generalist",
+        "HR Manager",
+    ],
+    "Operations": [
+        "Production Supervisor",
+        "Supply Chain Manager",
+        "Warehouse Manager",
+        "Logistics Coordinator",
+        "Operations Manager",
+    ],
+    "Customer Support": [
+        "Call Center Supervisor",
+        "Customer Support Specialist",
+        "Customer Service Representative",
+        "Help Desk Analyst",
+    ],
+    "Information Technology (IT)": [
+        "Database Administrator",
+        "IT Manager",
+        "Systems Analyst",
+        "Software Engineer",
+        "IT Support Specialist",
+        "Web Developer",
+        "Cybersecurity Analyst",
+        "Network Administrator",
+        "CTO (Chief Technology Officer)",
+    ],
+    "Quality Assurance (QA)": ["Quality Control Analyst"],
+    "Project Management": [
+        "Scrum Master",
+        "Project Manager",
+        "Team Lead",
+        "Project Coordinator",
+    ],
+    "Business Development": ["CEO (Chief Executive Officer)"],
+}
